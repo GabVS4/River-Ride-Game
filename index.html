@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/src/css/style.css" />
+    <title>Desvie dos Bugs do Digimundo</title>
+  </head>
+  <body>
+
+    <main>
+
+      <div id="janela"></div>
+      <div id="personagem"></div>
+      <div id="Moedas"></div>
+      <div id="Carnes"></div>
+      <div id="score">
+        <div>SCORE:</div>
+        <p id="progresso-de-pontos">0</p>
+      </div>
+      <progress id="fome" value="100" max="100"></progress>
+      
+      <audio id="pontuacao" src="./src/assets/audios/Moeda Som.mp3"></audio>
+      <audio id="recarga" src="./src/assets/audios/Mordida Som.mp3"></audio>
+
+    </main>
+
+    <script type="text/javascript" src="./src/js/barraDeFome.js"></script>
+    <script type="text/javascript" src="./src/js/movimentoPersonagem.js"></script>
+    <script type="text/javascript" src="./src/js/janela.js"></script>
+    <script type="text/javascript" src="./src/js/colisao.js"></script>
+    <script type="text/javascript" src="./src/js/itensGeradosAleatoriamente.js"></script>
+
+  </body>
+</html>
